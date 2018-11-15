@@ -7,3 +7,4 @@ django-cors-middleware
 python-decouple
 dj-database-url
 whitenoise
+gunicorn
