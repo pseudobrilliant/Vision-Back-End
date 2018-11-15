@@ -4,3 +4,5 @@ django-tastypie
 psycopg2-binary
 django-cors-headers
 django-cors-middleware
+python-decouple
+dj-database-url
