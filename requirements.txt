@@ -6,3 +6,4 @@ django-cors-headers
 django-cors-middleware
 python-decouple
 dj-database-url
+whitenoise
