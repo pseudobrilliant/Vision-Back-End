@@ -1,1 +1,1 @@
-web: gunicorn vision_django.wsgi --log-file
+web: gunicorn vision_django.wsgi.application --log-file
