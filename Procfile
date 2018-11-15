@@ -1,1 +1,1 @@
-web: gunicorn api.wsgi.application
+web: gunicorn vision_django.wsgi
