@@ -1,6 +1,7 @@
 wheel
 django
-django-tastypie
+djangorestframework
+pygments
 psycopg2-binary
 django-cors-headers
 django-cors-middleware
