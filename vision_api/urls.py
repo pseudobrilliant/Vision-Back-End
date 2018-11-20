@@ -4,7 +4,8 @@ from vision_api import views
 
 urlpatterns = [
     path('user/exists', views.VisionUserExists.as_view()),
-    path('user/<int:pk>/', views.VisionUserDetail.as_view()),
+    path('user/<slug:usr>', views.VisionUsers.as_view()),
+    path('users', views.AllVisionUsers.as_view()),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)

@@ -7,4 +7,4 @@ class VisionUserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = VisionUser
-        fields = ('user', 'left', 'right', 'center')
+        fields = ('user', 'descriptor')
